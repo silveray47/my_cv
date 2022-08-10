@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <title>Document</title>
+
+    
+</head>
+<body>
+    <div id="top_BG" class="BG"></div>
+    <div class="caret-down">
+        <i class="fas fa-caret-down"></i>
+    </div>
+    <div class="nav_bar_container container">
+        <div class="overlay">
+            <div class="nav-bar">
+                <ul id="nav-list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#timeline">Timeline</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#hire">Hire Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- mobile hamburger menu -------------------------------------------------------------->
+    <div id="mobile-menu">
+        <div id="mobile-menu-bar" onclick="mobilemenuOnClick()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+        <nav class="nav" id="nav">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#timeline">Timeline</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#hire">Hire Me</a></li>
+          </ul>
+        </nav> 
+      </div>
+      <div class="mobile-menu-bg" id="mobile-menu-bg"></div> 
+      <script src="./app.js"></script>
+
+    <!-- hero container --------------------------------------------------------------------->
+    <div id="hero" class="hero container">
+        <div id="hero_title" class="hero_title">
+            <h2 class="hero_title">my name is </h2>
+            <div class="heading_containar">
+                <h1 id="first_name" class="hero_title">raymond </h1>
+                <h1 id="last_name"class="hero_title"> agarunov</h1>
+                <div class="heading_dot"></div>
+            </div>
+            <p class="hero_title_subheading"> I'm Elector optical engineer </p>
+            <p class="hero_title_subheading"> S.T.E.M. instructor and content developer</p>      
+        </div>
+
+        <div class="hero_title button">
+            <a href="" type="button" class="hero_title button" target="_blank" rel="noopener noreferrer">Portfolio</a>
+        </div>
+    </div>
+  
+    <!-- about container -------------------------------------------------------------------->
+    <div id="about" class="about container">
+        <div class="about_info heading_containar">
+            <h1 class="about_title heading">About Me</h1>
+            <div class="heading_dot"></div>
+        </div>
+        <div id="about_heading_underline" class="underline"></div>
+        <div id="about_info">
+            <div id="about_text"> 
+                <p class="about_info subheading" >B.Sc. Electro optics Engineer From Ort Braude College. </p>
+                <p>An instructor and teacher with over 15 years of experience in teaching and developing S.T.E.M. activities includes working with cutting edge technologies such as CAD, 3D printing, robotics and more.<br></p>
+                <div id="resume_btn">
+                    <a id="resume" href="./raymond agarunov resume.pdf" type="button" class="about_info button" target="_blank" rel="noopener noreferrer">MY RESUME</a>
+                    <a id="resume" href="./ריימונד אגרונוב 2022 (1.06) .pdf" type="button" class="about_info button" target="_blank" rel="noopener noreferrer">קורות חיים</a>
+                </div>
+            </div>
+            <div class="about_img">
+                <img src="./images/prof.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- experience container ---------------------------------------------------------------->
+  <div id="experience" class="experience container">
+    <div class="experience_header">
+        <div class="experience_header heading_containar">
+            <h1 class="experience_title heading">My Experience</h1>
+            <div class="heading_dot"></div>
+        </div> 
+    </div>
+    <div class="experience_body">
+        <div class="STEM ">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <p>S.T.M.E</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Developing and Teaching S.T.E.M. programs for schools</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cyber">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                       <p>System & programing</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Training and teaching in various projects in the fields of cyber and IT professions in Israel and abroad</p>
+                        <p>Training in retraining programs for the IT world</p>
+                        <p>Content development for courses in python, Linux OS, MS-DC</p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <div class="3d">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <p>3D design</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Design of models and scientific instruments and training in working on CAD software</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!--experience_body-->
+</div> <!--experience container-->
+
+    <!-- timeline container ------------------------------------------------------------------>
+    <div id="timeline" class="timeline container">
+        
+    </div>
+    
+    <!-- Skills container -------------------------------------------------------------------->
+    <div id="skills" class="skills container">
+       
+    </div>
+
+    <!-- hire container --------------------------------------------------------------------->
+    <div id="hire" class="hire container">
+        <h1 class="hire-heading">Hire me to build your dream website</h1>
+        <a href="#" type="button" class="hire-button">Hire Me !!</a>
+       
+    </div>
+
+    <!-- footer container ------------------------------------------------------------------->
+    <div id="footer" class="footer container">
+        <div class="footer-contact">
+          <h1 class="footer-contact-heading">Contact With Me</h1>
+          <p class="footer-contact-info">Email: ray.agarunov@gmail.com</p>
+          <p class="footer-contact-info">Mobile: 0526270148</p>
+        </div>
+        <div class="footer-social-follow">
+            <h1 class="footer-social-follow-heading">Follow Me</h1>
+            <div class="footer-social-icon">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+                <a href="#"><i class="fab fa-behance-square"></i></a>
+                <a href="#"><i class="fab fa-dribbble-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <div id="bottom_BG" class="BG"></div>
+        
+</body>
+</html>
