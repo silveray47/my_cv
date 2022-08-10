@@ -206,8 +206,8 @@ html {
 }
 
 .mobile-menu-bg, #mobile-menu {
-  top: 10;
-  left: 10;
+  top: 10px;
+  left: 10px;
   position: fixed;
 }
 
