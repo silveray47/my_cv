@@ -160,7 +160,7 @@ html {
   border-radius: 60px;
   width: 45px;
   height: 40px;
-  padding: 30px 20px 10px 20px;
+  padding: 13px 20px 10px 8px;
   cursor: pointer;
   background-color: white;
 }
@@ -206,8 +206,8 @@ html {
 }
 
 .mobile-menu-bg, #mobile-menu {
-  top: 0;
-  left: 0;
+  top: 10;
+  left: 10;
   position: fixed;
 }
 
