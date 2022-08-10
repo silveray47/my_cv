@@ -74,11 +74,13 @@ html {
 .underline{
   width: 0px;
   height: 5px;
-  background: red;
+  background: #248FFA;
   transition: width 0.5s;
   transition-timing-function: ease-in-out;
 }
-
+.heading_container:hover .underline {
+  width: 300px;
+}
 /* caret-down ================================================= */
 .caret-down{
   width: 100vw;
@@ -118,7 +120,7 @@ html {
   position: absolute;
   overflow: hidden;
   top: 50%;
-  left: 50%;
+  left: 70%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
@@ -335,6 +337,9 @@ html {
   display: flex;
   justify-content: space-evenly;
   width: 93vw;
+}
+.experience_header:hover .underline {
+  width: 300px;
 }
 .flip-card{
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
