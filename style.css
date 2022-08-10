@@ -394,5 +394,62 @@ html {
   }
 
   /* hero  */
+  #hero{
+    margin: 0%;
+    padding-top: 0;
+    padding-left: 0;
+    right: 0%;
+    top: 0%;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  .hero_title_subheading{
+    font-size: 4vw;
+  }
 
+  #Portfolio_button{
+    margin: 0% auto 0% auto;
+
+  }
+  .hero_title h2 {
+    font-size: 5vw;
+  }
+  .heading_containar {
+    font-size: 5vw;
+  }
+
+  .button{
+    font-size: 3vw;
+  }
+  /* about */
+  #about_info{
+  flex-direction: column-reverse;
+  margin: 0px auto 0px 20vw;
+  }
+  #about_text {
+    width: 50vw;
+    font-size: 3vw;
+  }
+
+  /* exp */
+  .experience_body {
+    height: 70vh;
+    margin-top: 8vh;
+    margin-bottom: 10vh;
+    font-size: 2vw;
+    display: flex;
+    justify-content: space-around;
+    width: 93vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: stretch;
+}
+.flip-card {
+  width: 75vw;
+  height: 20vh;
+}
 }
