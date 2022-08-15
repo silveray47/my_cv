@@ -17,7 +17,7 @@ html {
   overflow-x: hidden;
 }
 .container {
-	width: 100%;
+	width: min-content;
   margin: 0%;
 	height: auto;
 	display: flex;
